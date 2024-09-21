@@ -1,6 +1,4 @@
-/*==================== toggle icon navbar ====================*/
 
-/*==================== scroll sections active link ====================*/
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
 
@@ -19,12 +17,8 @@ window.onscroll = () => {
         };
     });
 
-    /*==================== sticky navbar ====================*/
-
-
-     /*==================== remove toggle icon and navbar when click navbar link (scroll) ====================*/
 };
-/*==================== scroll reveal ====================*/
+
 ScrollReveal({ 
     reset: true,
     distace:'80px',
@@ -36,7 +30,7 @@ ScrollReveal({
  ScrollReveal().reveal('.home-img,.services-container,.portfolio-box,.contact', { origin: 'botton' });
  ScrollReveal().reveal('.home-content h1,.about-img', { origin: 'left' });
  ScrollReveal().reveal('.home-content p,.about-content', { origin: 'top' });
-/*==================== typed js ====================*/
+
 const typed=new Typed('.multiple-text',{
     strings:['gamer','Frontend Developer','Backend Developers'],
     typeSpeed:100,
